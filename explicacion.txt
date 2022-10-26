@@ -1,0 +1,22 @@
+Definicion - Call Stack
+
+El call Stack o pila de llamadas es una manera de interpretacion
+de javascript para el seguimiento de las llamadas a las funciones
+alojadas en nuestro codigo y mas especificamente la posicion y el lugar
+en donde dichas funciones se encuentran.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Funcionamiento - Call Stack
+
+Basicamente este procedimiento se desencadena cuando en el codigo
+o algun script se hace la llamada a alguna funcion y esta se añade
+en la pila de funciones, cualquier llamada a otra funcion dentro de
+la primera funcion se añadira por encima de la primera en la pila
+y asi se seran ejecutadas hasta que terminen sus procesos se eliminaran
+de la pila y asi consecutivamente, cuando la funcion actual termina 
+javascript simplemente lo elimina de la pila y sigue con la reaunudacion
+del codigo en el punto donde se quedo y haci hasta terminar las funciones
+del codigo, por otro lado la pila tiene un limeite de memora asignado y si
+este se supera se producira un error en la pila conocido como 
+desbordamiento de pila.
